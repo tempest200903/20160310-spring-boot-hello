@@ -1,0 +1,12 @@
+* memo 2016-03-10
+** spring boot
+- STS を起動する。
+- New; New Spring Starter Project
+  - [[file:images/WS-y2016-0133.JPG]]
+- http://qiita.com/opengl-8080/items/05d9490d6f0544e2351a
+  - Web アプリを作る
+  - Hello World
+    - [[file:images/WS-y2016-0137.JPG]]
+  - Thymeleaf 
+    - [[file:images/WS-y2016-0138.JPG]]
+    - [[file:images/WS-y2016-0139.JPG]]
