@@ -5,6 +5,14 @@
 <title>Hello Thymeleaf</title>
 </head>
 <body>
-	<h1>Hello Thymeleaf</h1>
+	<h1>Hello Thymeleaf HOT DEPLOY</h1>
+	<dl th:each="hoge : ${hogeList}">
+		<dt>id</dt>
+		<dd th:text="${hoge.id}"></dd>
+
+		<dt>value</dt>
+		<dd th:text="${hoge.value}"></dd>
+	</dl>
 </body>
+
 </html>
