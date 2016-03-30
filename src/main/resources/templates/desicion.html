@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>デシジョンテーブル</title>
+</head>
+<body>
+	<h1>デシジョンテーブル</h1>
+	<table border="1">
+		<tr th:each="desicionCause : ${desicionCauseList}">
+			<td th:text="${desicionCause.title}"></td>
+			<td>Y</td>
+		</tr>
+	</table>
+</body>
+
+</html>
